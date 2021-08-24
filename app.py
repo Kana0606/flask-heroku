@@ -28,7 +28,7 @@ def hello():
 
 @app.route('/name')
 def name():
-        return"<font color=blue>คณนาฐ รัตนพิบูลย์</font> <br>เลขที่ ๅจ ม.4/10"
+        return"<font color=blue>คณนาฐ รัตนพิบูลย์</font> <br>เลขที่ 8 ม.4/10"
 
 @app.route('/api', methods=['GET'])
 def get_api():
